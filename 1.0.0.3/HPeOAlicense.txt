@@ -1,0 +1,17 @@
+﻿HPE End User License Agreement – Enterprise Version
+
+This end user license agreement (the "Agreement") governs the use of accompanying software, 
+unless it is subject to a separate agreement between you and Hewlett Packard Enterprise Company 
+and its subsidiaries (“HPE”). By downloading, copying, or using the software you agree to this Agreement. 
+HPE provides translations of this Agreement in certain languages including English, 
+which may be found at: http://www.hpe.com/software/SWLicensing
+
+---------------------------------------------------------------------------------------------------------
+
+RENCI SSH.NET
+
+TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION. 
+which may be found at: https://github.com/sshnet/SSH.NET/blob/develop/LICENSE
+
+
+© Copyright 2018 Hewlett Packard Enterprise Development LP
