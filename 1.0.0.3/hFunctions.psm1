@@ -5,6 +5,8 @@ Lists Blade Servers within HP Blade Chassis
 Returns an object of Chassis, Bay and Blade for all HPe enclosures specified.  See Examples.
 Requires providing Onboard Admin credentials.  Use $MyCreds = Get-Credential to generate credentials.
 Requires HPe cmdlets Connect-HPEOA & Get-HPEOAServerList from module HPEOACmdlets; see https://github.com/hewlettpackard/
+If error "...PSCredential is not supported"  Changing "[pscredential]$Credential" to simply $credential" in the Parameter
+block is a workaround.'
 .PARAMETER Name
 Specify chassis by OnBoard Admin Name.  Example: MyChassis07-OA1.MyCompany.Org
 Normally the active OnBoard Admin will be OA1.  On a rare occassion it might be OA2.
