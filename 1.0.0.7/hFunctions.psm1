@@ -28,7 +28,6 @@ $MyVar = Show-Blade -Name MyChassis01-OA1, MyChassis02-OA1, MyChassis03-OA1 -Cre
 function Show-Blade
 {
 	[CmdletBinding()]
-	#[Diagnostics.CodeAnalysis.SuppressMessageAttribute("PSUsePSCredentialType", "Credential")]
 	[Diagnostics.CodeAnalysis.SuppressMessageAttribute("PSUsePSCredentialType", "", Justification="Credential Issue with Connect-HPEOA")]
 	[Diagnostics.CodeAnalysis.SuppressMessageAttribute("PSAvoidUsingPlainTextForPassword", "", Justification="Credential Issue with Connect-HPEOA")]
     param
